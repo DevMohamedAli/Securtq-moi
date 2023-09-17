@@ -1,0 +1,95 @@
+{
+    "save": "Save data",
+    "one error": "There is one form error",
+    "errors": "There are {0} form errors",
+    "network status": "You are offline",
+    "cancel": "Cancel",
+    "delete": "Delete",
+    "delete confirm": "Are you sure you want to delete",
+    "edit": "Edit",
+    "create": "Create",
+    "actions": "Actions",
+    "no data": "No data found",
+    "file large": "Unable to upload because the file is too large",
+    "max size": "JPG, GIF or PNG. Max size of 2M",
+    "picture upload": "Upload picture",
+
+    "previous": "Previous",
+    "next": "Next",
+    "showing": "Showing",
+    "of": "of",
+    "not active": "Sorry, your account is inactive",
+    "select all": "Select all",
+    "export excel": "Export excel",
+    "export pdf": "Export pdf",
+    "created": "Created at",
+    "sidebar": {
+        "dashboard": "Dashboard",
+        "users": "Users",
+        "settings": "Settings",
+        "siteSettings": "General settings",
+        "visitors": "Visitors",
+        "components": "Components",
+        "transactions": "Transactions",
+        "guns": "Guns",
+        "nationalities": "Nationalities"
+    },
+    "login": {
+        "title": "Sign in to platform",
+        "email": "Email",
+        "password": "Password",
+        "remember": "Remember me",
+        "button": "Log in"
+    },
+    "navbar": {
+        "notifications": "Notifications",
+        "all notifications": "View all",
+        "apps": "Apps",
+        "toggle mode": "Toggle mode",
+        "profile": "Profile",
+        "logout": "Sign out"
+    },
+    "users": {
+        "title": "Users",
+        "search": "Search by username",
+        "username": "Username",
+        "new user created": "new user created",
+        "type": "Permission",
+        "email": "Email",
+        "password": "Password",
+        "admin": "Admin",
+        "user": "User",
+        "active": "Active"
+    },
+    "notifications": {
+        "title": "Notifications",
+        "setAll": "Mark all as read",
+        "set": "Mark as read"
+    },
+    "profile": {
+        "link": "My profile",
+        "title": "Profile",
+        "information": "General information",
+        "name": "Name",
+        "email": "Email",
+        "phone": "Phone",
+        "password information": "Password information",
+        "current": "Current Password",
+        "new": "New Password",
+        "confirm": "Confirm Password",
+        "picture": "Profile picture",
+        "alerts notifications": "Alerts & Notifications",
+        "notifications": "Top bar notifications",
+        "alerts": "Operations alerts"
+    },
+    "settings": {
+        "general settings": "General settings",
+        "email": "Email",
+        "name": "Site name",
+        "phone": "Phone",
+        "address": "Address",
+        "site logo": "Site logo",
+        "site cover": "Site cover",
+        "side bar": "Side bar"
+    }
+}

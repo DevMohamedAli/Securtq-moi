@@ -1,0 +1,98 @@
+{
+    "save": "حفظ البيانات",
+    "one error": "هناك خطأ في حقل واحد ",
+    "errors": "يوجد {0} اخطاء",
+    "network status": "انت غير متصل بالانترنت",
+    "cancel": "الغاء",
+    "delete": "حذف",
+    "edit": "تعديل",
+    "actions": "خيارات",
+    "delete confirm": "هل أنت متأكد أنك تريد الحذف",
+    "no data": "لا توجد بيانات",
+    "file large": "تعذر الرفع لان حجم الملف كبير جدًا",
+    "max size": "JPG أو GIF أو PNG أقصى حجم 2M  ",
+    "picture upload": "رفع صورة",
+
+    "previous": "السابق",
+    "next": "التالي",
+    "showing": "عرض",
+    "of": "من",
+    "not active": "عفوا حسابك غير نشط",
+    "select all": "تحديد الكل",
+    "export excel": "تصدير اكسل",
+    "export pdf": "تصدير pdf",
+    "create": "اضافة ",
+    "created": "تاريخ الاضافة",
+
+    "sidebar": {
+        "dashboard": "لوحة التحكم",
+        "users": "المستخدمين",
+        "settings": " الاعدادات",
+        "siteSettings": "اعدادات عامة",
+        "visitors": "الزوار",
+        "components": "المكونات",
+        "guns": "الاسلحة",
+        "transactions": "سجل الحركة",
+        "nationalities": "الجنسيات"
+    },
+    "login": {
+        "title": "تسجيل الدخول لنظام الامن و الاستقبال",
+        "email": "البريد الالكتروني",
+        "password": "كلمة المرور",
+        "remember": "تذكرني",
+        "button": "دخول"
+    },
+    "navbar": {
+        "notifications": "الاشعارات",
+        "all notifications": "عرض الكل",
+        "apps": "التطبيقات",
+        "toggle mode": "تبديل الوضع",
+        "profile": "الملف الشخصي",
+        "logout": "تسجيل خروج"
+    },
+    "users": {
+        "title": "المستخدمين",
+        "search": "بحث باسم المستخدم",
+        "username": " اسم المستخدم",
+        "email": " البريد الالكتروني",
+        "new user created": "تم اضافة مستخدم جديد",
+        "password": " كلمة المرور",
+        "admin": "مدير",
+        "user": "مستخدم",
+        "type": "الصلاحية",
+        "active": "نشط"
+    },
+    "notifications": {
+        "title": "الاشعارات",
+        "setAll": "تحديد الكل كمقروءة",
+        "set": "تحديد كمقروءة"
+    },
+    "profile": {
+        "link": "ملفي",
+        "title": "الملف الشخصي",
+        "information": "معلومات عامة",
+        "name": "الاسم",
+        "email": "البريد الالكتروني",
+        "phone": "رقم الهاتف",
+        "password information": "معلومات كلمة المرور",
+        "current": " كلمة المرور الحالية",
+        "new": "كلمة المرور الجديدة",
+        "confirm": "تاكيد كلمة المرور",
+        "picture": "صورة الملف الشخصي",
+        "alerts notifications": "التنبيهات والإخطارات",
+        "notifications": "إخطارات الشريط العلوي",
+        "alerts": "تنبيهات العمليات"
+    },
+    "settings": {
+        "general settings": "اعدادات عامة",
+        "site logo": "شعار الموقع",
+        "name": "اسم الموقع",
+        "email": "البريد الالكتروني",
+        "phone": "رقم الهاتف",
+        "address": "العنوان",
+        "logo": "الشعار",
+        "site cover": "خلفية الموقع",
+        "top bar": "شريط علوي",
+        "side bar": "شريط جانبي"
+    }
+}

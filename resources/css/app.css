@@ -1,0 +1,296 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .icon-style {
+      @apply inline-flex justify-center w-12 h-12 items-center text-gray-500 rounded-full cursor-pointer hover:text-gray-900 hover:bg-gray-100 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white ring-0 outline-0;
+    }
+
+    .search-input-container {
+      @apply  relative w-56 mt-1 sm:w-72 xl:w-96;
+    }
+    
+    .filter-options {
+        @apply  flex items-center w-full sm:justify-end ;
+      }
+
+      .filter-options .filter-inputs{
+        @apply  flex ps-2 space-x-1  ;
+      }
+
+      .toggleSidebarMobileSearch {
+        @apply  p-2 text-gray-500 rounded-lg lg:hidden hover:text-gray-900 hover:bg-gray-100 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white ;
+      }
+
+      .website-title {
+        @apply  self-center text-xl font-semibold lg:inline hidden lg:text-2xl whitespace-nowrap dark:text-gray-300 ;
+      }
+
+      .toggleSidebarMobile {
+        @apply  p-2 text-gray-600 rounded cursor-pointer lg:hidden hover:text-gray-900 hover:bg-gray-100 focus:bg-gray-100 dark:focus:bg-gray-700 focus:ring-2 focus:ring-gray-100 dark:focus:ring-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white ;
+      }
+
+      .main-nav{
+        @apply  fixed z-30 w-full bg-white border-b border-gray-200 dark:bg-gray-800 dark:border-gray-700 ;
+      }
+
+      .narbar-dropdowns {
+        @apply  z-50 hidden max-w-sm my-4 overflow-hidden text-base list-none bg-white divide-y divide-gray-100 rounded shadow-lg dark:divide-gray-600 dark:bg-gray-700 ;
+      }
+
+      .narbar-dropdowns .title {
+        @apply  block px-4 py-2 text-base font-medium text-center text-gray-700 bg-gray-50 dark:bg-gray-700 dark:text-gray-400 ;
+      }
+
+      .notification-link {
+        @apply  flex px-4 py-3 border-b hover:bg-gray-100 dark:hover:bg-gray-600 dark:border-gray-600 ;
+      }
+
+      .notification-link img {
+        @apply  rounded-full w-11 h-11 ;
+      }
+      
+      .app-container a {
+        @apply  block p-4 text-center rounded-lg hover:bg-gray-100 dark:hover:bg-gray-600 ;
+      }
+
+      .app-container a svg { @apply mx-auto mb-1 text-gray-500 w-7 h-7 dark:text-gray-400; }
+
+
+      .notifications-toggle {
+        @apply  p-2 text-gray-500 rounded-lg hover:text-gray-900 hover:bg-gray-100 dark:text-gray-400 dark:hover:text-white dark:hover:bg-gray-700 ;
+      }
+
+      .notifications-toggle svg {
+        @apply w-6 h-6
+      }
+
+      .all-notifications-link {
+        @apply  block py-2 text-base font-normal text-center text-gray-900 bg-gray-50 hover:bg-gray-100 dark:bg-gray-700 dark:text-gray-200 dark:hover:underline ;
+      }
+
+      .all-notifications-link div {
+        @apply inline-flex items-center 
+      }
+
+      .all-notifications-link div svg {
+        @apply w-5 h-5 me-2
+      }
+
+      .apps-toggle {
+        @apply  hidden p-2 text-gray-500 rounded-lg sm:flex hover:text-gray-900 hover:bg-gray-100 dark:text-gray-400 dark:hover:text-white dark:hover:bg-gray-700 ;
+      }
+
+      .apps-toggle svg {
+        @apply w-6 h-6
+      }
+
+       .notification-container {
+        @apply  text-gray-500 font-normal text-sm mb-1.5 dark:text-gray-400;
+      }
+      .notification-container span { 
+         @apply  font-semibold text-gray-900 dark:text-gray-200;
+      }
+      .notification-time {
+        @apply  text-xs font-medium text-primary-700 dark:text-primary-400;
+      }
+
+      .app-container { @apply grid grid-cols-3 gap-4 p-4; }
+      .app-title { @apply text-sm font-medium text-gray-900 dark:text-gray-200; }
+
+
+      .profile-toggle {
+        @apply flex text-sm bg-gray-800 rounded-full
+      }
+
+      .profile-toggle img {
+        @apply w-8 h-8 rounded-full
+      }
+
+      .profile-dropdown {
+        @apply z-50 hidden my-4 text-base list-none bg-white divide-y divide-gray-100 rounded shadow dark:bg-gray-700 dark:divide-gray-600
+      }
+
+      .profile-dropdown ul {
+        @apply py-1
+      }
+
+      .profile-dropdown div {
+        @apply px-4 py-3
+      }
+
+      .profile-dropdown .name {
+        @apply text-sm text-gray-900 dark:text-gray-200
+      }
+      .profile-dropdown .email {
+        @apply text-sm font-medium text-gray-900 truncate dark:text-gray-300
+      }
+
+      .profile-dropdown a {
+        @apply block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 dark:text-gray-300 dark:hover:bg-gray-600 dark:hover:text-white
+      }
+
+      .darkmode-toggle {
+        @apply text-gray-500 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-700 focus:outline-none focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 rounded-lg text-sm p-2.5
+      }
+
+      .sidebar {
+        @apply fixed top-0 start-0 z-20 flex-col flex-shrink-0 w-64 h-full pb-16 lg:pb-0 lg:pt-16 font-normal duration-75 transition-width
+      }
+
+      .sidebar-container {
+        @apply relative flex flex-col flex-1 min-h-full pt-0 bg-white border-e border-gray-200 dark:bg-gray-800 dark:border-gray-700 
+      }
+
+      .sidebar-container .sidebar-links-container {
+        @apply flex flex-col flex-1 pt-5 pb-4 overflow-y-auto
+      }
+
+      .sidebar-li-icon {
+        @apply w-6 h-6 text-gray-500 transition duration-75 group-hover:text-gray-900 dark:text-gray-400 dark:group-hover:text-white
+      }
+
+      .sidebar-li-dropdown-icon {
+        @apply flex-shrink-0 w-6 h-6 text-gray-500 transition duration-75 group-hover:text-gray-900 dark:text-gray-400 dark:group-hover:text-white
+      }
+
+      .sidebar .settings {
+        @apply inline-flex justify-center p-2 text-gray-500 rounded cursor-pointer hover:text-gray-900 hover:bg-gray-100 dark:hover:bg-gray-700 dark:hover:text-white
+      }
+
+      .sidebar .sidebar-bottom-menu {
+        @apply absolute bottom-0 start-0 justify-center hidden w-full p-4 space-x-4 bg-white lg:flex dark:bg-gray-800
+      }
+
+      .sidebar .sidebar-links {
+        @apply flex-1 px-3 space-y-1 bg-white divide-y divide-gray-200 dark:bg-gray-800 dark:divide-gray-700
+      }
+
+      .sidebar .sidebar-links ul{
+        @apply pb-2 space-y-2
+      }
+      
+      .sidebar .sidebar-links ul form {
+        @apply lg:hidden
+      }
+
+      .sidebar .sidebar-links ul form input {
+        @apply block w-full
+      }
+
+      .sidebar .sidebar-links ul form .icon{
+        @apply absolute inset-y-0 end-3 flex items-center pl-3 pointer-events-none
+      }
+
+      .sidebar .sidebar-links ul form .icon svg{
+        @apply w-5 h-5 text-gray-500
+      }
+
+      .filter-container {
+        @apply flex items-center mb-4 sm:mb-0
+      }
+
+
+      .data-table table  {
+        @apply min-w-full divide-y divide-gray-200 table-fixed dark:divide-gray-600
+      }
+
+      .data-table table thead {
+        @apply bg-gray-100 dark:bg-gray-700
+      }
+
+      .data-table table tbody {
+        @apply bg-white divide-y divide-gray-200 dark:bg-gray-800 dark:divide-gray-700
+      }
+
+      .data-table table thead tr th {
+        @apply p-4 text-xs font-medium text-start text-gray-500 uppercase dark:text-gray-400
+      }
+
+      .data-table table tbody tr {
+        @apply hover:bg-gray-50 dark:hover:bg-gray-900
+      }
+
+      .data-table table tbody tr td {
+        @apply p-4 text-base font-medium text-gray-900 whitespace-nowrap dark:text-gray-400
+      }
+
+      .confirm {
+        @apply text-white bg-red-600 hover:bg-red-800 focus:ring-4 focus:outline-none focus:ring-red-300 dark:focus:ring-red-800 font-medium rounded-lg text-sm inline-flex items-center px-5 py-2.5 text-center me-2
+      }
+
+      .paginate-input {
+        @apply border sm:text-sm rounded-lg  w-16 text-center border-gray-300 text-gray-900 focus:ring-primary-500 focus:border-primary-500  dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 inline p-2.5 bg-gray-50 dark:bg-gray-700
+      }
+
+      .dropdown {
+        @apply z-10 hidden bg-white divide-y divide-gray-100 rounded-lg shadow w-44 dark:bg-gray-800 dark:divide-gray-600 border border-gray-200 dark:border-gray-600
+      }
+
+      .dropdown ul {
+        @apply py-2 text-sm text-gray-700 dark:text-gray-200
+      }
+
+      .small-show-accordion .panel {
+        @apply mb-3 border rounded-lg overflow-hidden border-gray-200 dark:border-gray-700
+      }
+
+      .small-show-accordion {
+        @apply px-4 pt-5 lg:hidden block 
+      }
+
+      .small-show-accordion .header {
+        @apply bg-white dark:bg-gray-800
+      }
+
+
+  }
+  
+  ::-webkit-scrollbar {
+    display: none;
+  }
+ 
+  /* Track */
+ 
+  ::-webkit-scrollbar-track {
+    display: none;
+ 
+ 
+  }
+ 
+  /* Handle */
+ 
+  ::-webkit-scrollbar-thumb {
+    display: none;
+ 
+ 
+  }
+
+  .large .last\:text-right:last-child {
+    text-align: center !important;
+  }
+
+  
+.small-show-accordion .header button.flex {
+  border: none;
+  padding: 10px 7px;
+  border-radius: 0;
+}
+
+.small-show-accordion .content div.border-b-0 {
+  border: none;
+  padding: 0;
+}
+
+div.relative.overflow-x-auto.shadow-md.hidden.rounded-0 {
+  border-radius: 0 !important;
+  -webkit-border-radius: 0 !important;
+  -moz-border-radius: 0 !important;
+  -ms-border-radius: 0 !important;
+  -o-border-radius: 0 !important;
+}
+
+button div.mr-2 {
+  margin-left: 0.5rem;
+}
